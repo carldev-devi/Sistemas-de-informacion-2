@@ -50,7 +50,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jButton1.setText("jButton1");
         opciones.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
 
-        jLabel1.setText("gg");
+        jLabel1.setText("xd");
         opciones.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, -1, -1));
 
         getContentPane().add(opciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 630));
