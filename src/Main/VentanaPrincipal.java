@@ -25,6 +25,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
         jTabbedPane1 = new javax.swing.JTabbedPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -36,8 +37,13 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jButton2.setText("opcion1");
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 150, 60));
 
-        jButton3.setText("opcion3");
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 150, 60));
+        jButton3.setText("opcion4");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 150, 60));
 
         jButton4.setText("opcion2");
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 150, 60));
@@ -53,6 +59,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         });
         jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, -1, 40));
 
+        jButton6.setText("opcion3");
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, 150, 60));
+
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 250, 630));
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 670, 630));
 
@@ -62,6 +71,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(() -> new VentanaPrincipal().setVisible(true));
@@ -73,6 +86,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
