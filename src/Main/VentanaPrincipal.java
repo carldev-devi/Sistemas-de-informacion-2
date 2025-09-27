@@ -42,7 +42,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         opciones.setBackground(new java.awt.Color(102, 255, 255));
         opciones.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton2.setText("opcion");
+        jButton2.setText("opcion1");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
