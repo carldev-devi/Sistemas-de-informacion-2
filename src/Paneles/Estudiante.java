@@ -8,12 +8,12 @@ package Paneles;
  *
  * @author carlo
  */
-public class Inicio extends javax.swing.JPanel {
+public class Estudiante extends javax.swing.JPanel {
 
     /**
-     * Creates new form Inicio
+     * Creates new form Estudiante
      */
-    public Inicio() {
+    public Estudiante() {
         initComponents();
     }
 
@@ -32,7 +32,7 @@ public class Inicio extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Dubai Light", 1, 24)); // NOI18N
-        jLabel1.setText("probando adicion paneles");
+        jLabel1.setText("Segundo panel");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 100, 290, 120));
     }// </editor-fold>//GEN-END:initComponents
 

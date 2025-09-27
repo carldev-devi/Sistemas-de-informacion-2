@@ -3,12 +3,14 @@ package Main;
 import java.awt.Color;
 import java.sql.SQLException;
 import ComponentesDAO.DeporteDAO;
+import Paneles.Estudiante;
 import Paneles.Inicio;
 import javax.swing.JPanel;
 public class VentanaPrincipal extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName());
     Inicio inicio;
+    Estudiante estudiante;
     DeporteDAO dao;
     public VentanaPrincipal() {
         initComponents();
@@ -18,7 +20,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void inicializarPaneles(){
         this.inicio=new Inicio();
-        Paneles.add(inicio); 
+        this.estudiante=new Estudiante();
+        Paneles.add(inicio);
+        Paneles.add(estudiante);
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
