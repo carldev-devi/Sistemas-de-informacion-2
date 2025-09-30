@@ -26,15 +26,54 @@ public class InicioConsultas extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton1 = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jButton1.setText("Ingresar al Sistema");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 20, 170, -1));
+
+        jPanel2.setBackground(new java.awt.Color(102, 204, 255));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton2.setText("Contactanos");
+        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 10, 240, 30));
+
+        jButton3.setText("Inicio");
+        jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 240, 30));
+
+        jButton4.setText("Facultades");
+        jPanel2.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 290, 30));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 870, 50));
+
+        jPanel3.setBackground(new java.awt.Color(183, 224, 255));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Monotype Corsiva", 0, 18)); // NOI18N
+        jTextArea1.setRows(5);
+        jTextArea1.setText("Principios, Fines y Objetivos\nAspectos Institucionales\nLa Universidad Mayor de San Simón (UMSS), fundada por Ley del 5 de noviembre de 1832, durante la Presidencia del Mcal. Andrés de Santa Cruz, es una \nentidad autónoma, de derecho público, constituida por docentes, estudiantes y personal administrativo, con personería jurídica propia, reconocida por la \nConstitución Política del Estado. Cubre el área de la educación superior con sus funciones de enseñanza-aprendizaje, investigación científica y tecnológica\n e interacción social universitaria. La UMSS pertenece al Sistema de Universidades Públicas agrupadas en torno al Comité Ejecutivo de la Universidad B\noliviana (CEUB). La actividad académica y administrativa de la UMSS se sujeta, tanto a las leyes bolivianas como a la normativa interna, expresada en el \nEstatuto Orgánico. A partir de 1930 (Referéndum) y 1931 (Decreto Ley), la Universidad Boliviana asume la Autonomía Universitaria, cuya esencia reside en \nla libertad del pensamiento para desarrollar el conocimiento científico, en función de sus principios, fines y objetivos, tal como establece la Constitución \nPolítica del Estado. La Autonomía Universitaria es un derecho imprescriptible e inalienable, que implica obligaciones y reconoce derechos para autoridades, \ndocentes, estudiantes y dependientes administrativos; y se entiende como la capacidad que tiene la Universidad para la libre administración de su \npatrimonio,la elección de sus Autoridades, el nombramiento de su personal docente y administrativo, la elaboración y aprobación de sus estatutos, planes \nde estudio, reglamentos y presupuestos anuales, así como la capacidad que se le reconoce para aceptar legados y donaciones, para celebrar contratos \ny negociar empréstitos con garantía de sus bienes y recursos, previa aprobación legislativa. La base de la organización democrática de la UMSS \ndescansa en la decisión soberana de la totalidad de docentes y estudiantes, expresada mediante el voto universal y el co-gobierno paritario \ndocente-estudiantil.\n\nVisión\nLa Universidad Mayor de San Simón es una entidad pública autónoma, intra e intercultural de excelencia nacional e internacional que integra los procesos \nde formación, investigación e interacción en grado y posgrado; con gestión de calidad, descentralizada y desconcentrada administrativa y académicamente; \nrespetando la separación de órganos y funciones e instituyendo la meritocracia, la ética y la transparencia para contribuir al desarrollo socioeconómico en \narmonía con la naturaleza, la equidad social y de género, impulsando el pluralismo en sus variadas expresiones.\n\nMisión\nFormar profesionales críticos, creativos, emprendedores y bioéticos, así como desarrollar investigación e interacción social en las áreas del conocimiento \ncientífico, tecnológico y universal, dirigidos al desarrollo social, económico plural y productivo, en el marco de la construcción de una cultura de la vida, \nprotección del medio ambiente y la biodiversidad.\n\nPrincipios\nLa Autonomía, respecto del Estado o de cualquier otra estructura de poder y la libertad académica de cátedra, es el fundamento básico de la \nUniversidad Pública. Así entendida, la Autonomía es inseparable de la democracia y del ejercicio de la soberanía nacional. Se complementa con el \nco-gobierno docente-estudiantil, que reúne la voluntad general de los dos gremios más importantes que le dan razón de ser a la educación superior, \ncon el valioso apoyo de los trabajadores administrativos. La comunidad universitaria rechaza toda forma de intervención del poder central en su seno,\n más aún cualquier forma de gobierno de la educación superior pública que no emerja del ejercicio de la Autonomía Universitaria y el Cogobierno \ndocente-estudiantil. El Estatuto Orgánico define a la Universidad Boliviana con los siguientes atributos: es nacional, científica, democrática, popular y \nantimperialista, en un proceso dialéctico de vinculación y mutua influencia entre la Universidad y la Sociedad. El sustento de su oferta académica, \nde investigación e interacción social, es la demanda de la comunidad nacional y regional, en la cual se basa el proceso institucionalizado de \ndesconcentración académica hacia las provincias. La detección de los problemas concretos que traban el desarrollo humano, social, económico y\n político, en la región y la nación, determina los contenidos curriculares, orienta la investigación y abre los escenarios para la interacción social. \nLa tuición del Estado sobre las Universidades consiste en la obligación de los Poderes Públicos de respetar, defender y dignificar la Autonomía \nUniversitaria y en sostener y fortificar sus economías, mediante recursos y subsidios");
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jPanel3.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 850, 400));
+
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 870, 450));
+
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/fondo.png"))); // NOI18N
+        jLabel1.setText("Ingresar al Sistema");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 600));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 600));
@@ -68,6 +107,7 @@ public class InicioConsultas extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(InicioConsultas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -78,7 +118,15 @@ public class InicioConsultas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
 }

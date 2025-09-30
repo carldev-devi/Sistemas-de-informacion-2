@@ -99,30 +99,49 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-          <AuxValues>
-            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-          </AuxValues>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+          </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="10" width="850" height="400"/>
+              <AbsoluteConstraints x="20" y="170" width="260" height="-1"/>
             </Constraint>
           </Constraints>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-          <SubComponents>
-            <Component class="javax.swing.JTextArea" name="jTextArea1">
-              <Properties>
-                <Property name="columns" type="int" value="20"/>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Monotype Corsiva" size="18" style="0"/>
-                </Property>
-                <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="Principios, Fines y Objetivos&#xa;Aspectos Institucionales&#xa;La Universidad Mayor de San Sim&#xf3;n (UMSS), fundada por Ley del 5 de noviembre de 1832, durante la Presidencia del Mcal. Andr&#xe9;s de Santa Cruz, es una &#xa;entidad aut&#xf3;noma, de derecho p&#xfa;blico, constituida por docentes, estudiantes y personal administrativo, con personer&#xed;a jur&#xed;dica propia, reconocida por la &#xa;Constituci&#xf3;n Pol&#xed;tica del Estado. Cubre el &#xe1;rea de la educaci&#xf3;n superior con sus funciones de ense&#xf1;anza-aprendizaje, investigaci&#xf3;n cient&#xed;fica y tecnol&#xf3;gica&#xa; e interacci&#xf3;n social universitaria. La UMSS pertenece al Sistema de Universidades P&#xfa;blicas agrupadas en torno al Comit&#xe9; Ejecutivo de la Universidad B&#xa;oliviana (CEUB). La actividad acad&#xe9;mica y administrativa de la UMSS se sujeta, tanto a las leyes bolivianas como a la normativa interna, expresada en el &#xa;Estatuto Org&#xe1;nico. A partir de 1930 (Refer&#xe9;ndum) y 1931 (Decreto Ley), la Universidad Boliviana asume la Autonom&#xed;a Universitaria, cuya esencia reside en &#xa;la libertad del pensamiento para desarrollar el conocimiento cient&#xed;fico, en funci&#xf3;n de sus principios, fines y objetivos, tal como establece la Constituci&#xf3;n &#xa;Pol&#xed;tica del Estado. La Autonom&#xed;a Universitaria es un derecho imprescriptible e inalienable, que implica obligaciones y reconoce derechos para autoridades, &#xa;docentes, estudiantes y dependientes administrativos; y se entiende como la capacidad que tiene la Universidad para la libre administraci&#xf3;n de su &#xa;patrimonio,la elecci&#xf3;n de sus Autoridades, el nombramiento de su personal docente y administrativo, la elaboraci&#xf3;n y aprobaci&#xf3;n de sus estatutos, planes &#xa;de estudio, reglamentos y presupuestos anuales, as&#xed; como la capacidad que se le reconoce para aceptar legados y donaciones, para celebrar contratos &#xa;y negociar empr&#xe9;stitos con garant&#xed;a de sus bienes y recursos, previa aprobaci&#xf3;n legislativa. La base de la organizaci&#xf3;n democr&#xe1;tica de la UMSS &#xa;descansa en la decisi&#xf3;n soberana de la totalidad de docentes y estudiantes, expresada mediante el voto universal y el co-gobierno paritario &#xa;docente-estudiantil.&#xa;&#xa;Visi&#xf3;n&#xa;La Universidad Mayor de San Sim&#xf3;n es una entidad p&#xfa;blica aut&#xf3;noma, intra e intercultural de excelencia nacional e internacional que integra los procesos &#xa;de formaci&#xf3;n, investigaci&#xf3;n e interacci&#xf3;n en grado y posgrado; con gesti&#xf3;n de calidad, descentralizada y desconcentrada administrativa y acad&#xe9;micamente; &#xa;respetando la separaci&#xf3;n de &#xf3;rganos y funciones e instituyendo la meritocracia, la &#xe9;tica y la transparencia para contribuir al desarrollo socioecon&#xf3;mico en &#xa;armon&#xed;a con la naturaleza, la equidad social y de g&#xe9;nero, impulsando el pluralismo en sus variadas expresiones.&#xa;&#xa;Misi&#xf3;n&#xa;Formar profesionales cr&#xed;ticos, creativos, emprendedores y bio&#xe9;ticos, as&#xed; como desarrollar investigaci&#xf3;n e interacci&#xf3;n social en las &#xe1;reas del conocimiento &#xa;cient&#xed;fico, tecnol&#xf3;gico y universal, dirigidos al desarrollo social, econ&#xf3;mico plural y productivo, en el marco de la construcci&#xf3;n de una cultura de la vida, &#xa;protecci&#xf3;n del medio ambiente y la biodiversidad.&#xa;&#xa;Principios&#xa;La Autonom&#xed;a, respecto del Estado o de cualquier otra estructura de poder y la libertad acad&#xe9;mica de c&#xe1;tedra, es el fundamento b&#xe1;sico de la &#xa;Universidad P&#xfa;blica. As&#xed; entendida, la Autonom&#xed;a es inseparable de la democracia y del ejercicio de la soberan&#xed;a nacional. Se complementa con el &#xa;co-gobierno docente-estudiantil, que re&#xfa;ne la voluntad general de los dos gremios m&#xe1;s importantes que le dan raz&#xf3;n de ser a la educaci&#xf3;n superior, &#xa;con el valioso apoyo de los trabajadores administrativos. La comunidad universitaria rechaza toda forma de intervenci&#xf3;n del poder central en su seno,&#xa; m&#xe1;s a&#xfa;n cualquier forma de gobierno de la educaci&#xf3;n superior p&#xfa;blica que no emerja del ejercicio de la Autonom&#xed;a Universitaria y el Cogobierno &#xa;docente-estudiantil. El Estatuto Org&#xe1;nico define a la Universidad Boliviana con los siguientes atributos: es nacional, cient&#xed;fica, democr&#xe1;tica, popular y &#xa;antimperialista, en un proceso dial&#xe9;ctico de vinculaci&#xf3;n y mutua influencia entre la Universidad y la Sociedad. El sustento de su oferta acad&#xe9;mica, &#xa;de investigaci&#xf3;n e interacci&#xf3;n social, es la demanda de la comunidad nacional y regional, en la cual se basa el proceso institucionalizado de &#xa;desconcentraci&#xf3;n acad&#xe9;mica hacia las provincias. La detecci&#xf3;n de los problemas concretos que traban el desarrollo humano, social, econ&#xf3;mico y&#xa; pol&#xed;tico, en la regi&#xf3;n y la naci&#xf3;n, determina los contenidos curriculares, orienta la investigaci&#xf3;n y abre los escenarios para la interacci&#xf3;n social. &#xa;La tuici&#xf3;n del Estado sobre las Universidades consiste en la obligaci&#xf3;n de los Poderes P&#xfa;blicos de respetar, defender y dignificar la Autonom&#xed;a &#xa;Universitaria y en sostener y fortificar sus econom&#xed;as, mediante recursos y subsidios"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton5"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="60" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton5"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="90" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jButton5"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="130" width="260" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel1">
